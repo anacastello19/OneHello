@@ -30,7 +30,7 @@
     }
 
     function amor(){
-        alert('Yo amo JS');
+        alert('Yo amo JavaScript');
     }
 
     function suma(){
