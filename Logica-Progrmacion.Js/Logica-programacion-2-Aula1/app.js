@@ -6,11 +6,15 @@ console.log(numeroSecreto);
 function asignarTextElement(elemento, texto){
     let elementoHTML=document.querySelector(elemento);
     elementoHTML.innerHTML=texto;
+    return;
 }
 //Función es un encapsilamiento de una acción
 //En este momento es validar el valor del usario
-function intentoDeUsuario() {
-    alert('Click desde el boton');
+function verificarIntento() {
+    let numUsuario = parseInt(document.getElementById("valorUsuario").values);
+    console.log(numeroSecreto);
+    console.log(numUsuario);
+    console.log(numUsuario === numeroSecreto) ;
     return;
 }
 //Vamos a retornar el numero secreto
