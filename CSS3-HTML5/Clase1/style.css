@@ -1,8 +1,18 @@
-body{
-    background: #cccccc;
+.titulo-pincipal{
+    padding-left: 30px ;
+}
+#banner{
+    width: 100%;
+    height: 300px;
+ }
+
+.principal{
+    background: #cccccc ;
+    padding:  20px;
 }
 
-h1{
+
+.titulo-centralizado{
     text-align: center;
  }
 
@@ -18,6 +28,28 @@ em strong{
     font-size: 20px;
  }
 
- #banner{
-    
+ 
+
+ .diferenciales{
+    background: #fff;
+    padding: 30px;
+ }
+
+ h2{
+    text-align: center;
+ }
+
+ .item{
+    font-style: italic;
+ }
+
+ ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+ }
+
+ .imgdif{
+    width: 50%;
  }
