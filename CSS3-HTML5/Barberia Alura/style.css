@@ -1,6 +1,7 @@
 .titulo-pincipal{
     padding-left: 30px ;
 }
+
 #banner{
     width: 100%;
     height: 300px;
@@ -14,11 +15,11 @@
 
 .titulo-centralizado{
     text-align: center;
- }
+}
 
- p {
+p{
      text-align: center;
- }
+}
 
 em strong{
     color: rgb(205, 41, 41);
@@ -28,28 +29,26 @@ em strong{
     font-size: 20px;
  }
 
- 
-
- .diferenciales{
+.diferenciales{
     background: #fff;
     padding: 30px;
- }
+}
 
- h2{
+h2{
     text-align: center;
- }
+}
 
- .item{
+.item{
     font-style: italic;
- }
+}
 
- ul{
+ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
- }
+}
 
- .imgdif{
+.imgdif{
     width: 50%;
- }
+}
