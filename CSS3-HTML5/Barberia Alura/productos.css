@@ -1,0 +1,15 @@
+header{
+    background: #bbbb;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase; /*En mayuscula*/
+    color: black;
+    font-weight: bold;/*Le da grosor al texto*/
+    font-size: 22px;/*tamaño de la funte/letras*/
+    text-decoration: none;/*Elimina las lineas de link */
+}
