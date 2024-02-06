@@ -27,3 +27,72 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+/*la propiedad :hover captura el movimiento de mouse*/
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*Para hacer el codigo del bode mas simplidicado usamos
+    border: "anchura" borde "solido" "color del borde".*/
+    border: 2px  solid #000000;
+    /*border-radius: "super izq" "super derech" "inf derech" "inf izq"*/
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+}
+/*Captura el click*/
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px
+}
