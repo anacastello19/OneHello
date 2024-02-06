@@ -1,54 +1,120 @@
-.titulo-pincipal{
-    padding-left: 30px ;
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-#banner{
-    width: 100%;
-    height: 300px;
- }
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
 
-.principal{
-    background: #cccccc ;
-    padding:  20px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/*la propiedad :hover captura el movimiento de mouse*/
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 
-.titulo-centralizado{
-    text-align: center;
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-p{
-     text-align: center;
-}
-
-em strong{
-    color: rgb(205, 41, 41);
- }
-
-#mision{
-    font-size: 20px;
- }
-
-.diferenciales{
-    background: #fff;
-    padding: 30px;
-}
-
-h2{
-    text-align: center;
-}
-
-.item{
-    font-style: italic;
-}
-
-ul{
+.productos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*Para hacer el codigo del bode mas simplidicado usamos
+    border: "anchura" borde "solido" "color del borde".*/
+    border: 2px  solid #000000;
+    /*border-radius: "super izq" "super derech" "inf derech" "inf izq"*/
+    border-radius: 10px;
 }
 
-.imgdif{
-    width: 50%;
+.productos li:hover{
+    border-color: #c78c19;
+}
+/*Captura el click*/
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: ;
 }
