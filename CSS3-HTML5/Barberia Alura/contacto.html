@@ -27,16 +27,33 @@
 
     <!--Cuerpo-->
     <main>
-        <form action="">
-            <label for="nombreapellido">Nombre y Apellido</label>
+        <form>
+            <label for="nombreapellido" class="input-padron">Nombre y Apellido</label>
             <!--input nos crea una caja de texto-->
-            <input type="text" id="nombreapellido">
+            <input type="text" id="nombreapellido" class="input-padron">
 
-            <label for="correo">Correo</label>
-            <input type="text" id="correo">
+            <label for="correo" class="input-padron">Correo</label>
+            <input type="text" id="correo" class="input-padron">
 
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono">
+            <label for="telefono" class="input-padron">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron">
+
+            <label for="mensaje" class="input-padron" class="input-padron">Mensaje</label>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+
+            <div>
+                <p>Donde le gustaria que le contactemos?</p>
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+
+                <label for="radio-llamada"><input type="radio" name="contacto" value="llamada" id="radio-llamada">Llamarme</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                
+            </div>
+           
+            <label> <input type="checkbox" class="checkbox">Le gustaria recibir novedades de la Barberia alura?</label>
 
             <input type="submit" value="Enviar Formulario">
         </form>
